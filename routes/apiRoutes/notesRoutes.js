@@ -2,7 +2,7 @@ const fs = require('fs');
 const router = require('express').Router()
 //needs update
 const { createNewNote } = require('../../libs/notes')
-const { db } = require('../../db/db')
+const db = require('../../db/db')
 //needs update
 router.get('/notes', (req, res) => {
     let result = db
