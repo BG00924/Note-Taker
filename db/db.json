@@ -3,9 +3,5 @@
     "title": "Test Title",
     "text": "Test text",
     "id": "test_id"
-  },
-  {
-    "title": "Test 2",
-    "text": "Does it work?"
   }
 ]

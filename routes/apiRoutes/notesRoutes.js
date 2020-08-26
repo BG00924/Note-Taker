@@ -13,7 +13,7 @@ router.get('/notes', (req, res) => {
     }
 })
 router.post('/notes', (req, res) => {
-    // req.body.id = db.length.toString()
+    req.body.id = db.length.toString()
     // if (!validateNote(req.body)) {
     //     res.status(400).send('The note is not properly formatted.')
     // } else {
